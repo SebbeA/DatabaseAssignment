@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Database.Models.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Database.Contexts
 {
@@ -27,5 +28,9 @@ namespace Database.Contexts
 		}
 
 		#endregion
+
+		public DbSet<IssueEntity> Issues { get; set; } = null!;
+		public DbSet<PersonEntity> Persons { get; set; } = null!;
+		public DbSet<StatusEntity> Statuses { get; set; } = null!;
 	}
 }
