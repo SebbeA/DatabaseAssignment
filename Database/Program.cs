@@ -6,6 +6,7 @@ while (true)
 {
 	Console.Clear();
 	Console.Write("Välkommen! Vänligen ett av följande alternativ (1-6): \n");
+	Console.Write("\n");
 	Console.WriteLine("1. Skapa ett ärende ");
 	Console.WriteLine("2. Visa alla ärenden ");
 	Console.WriteLine("3. Visa ett specifik ärende ");
